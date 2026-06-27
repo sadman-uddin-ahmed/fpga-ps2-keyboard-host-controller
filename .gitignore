@@ -1,0 +1,17 @@
+# Xilinx Vivado generated files
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.bin
+*.mcs
+*.ltx
+*.wdb
+*.vcd
+
+# Editor files
+.vscode/
+*.code-workspace
