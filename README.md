@@ -6,7 +6,7 @@ The project was implemented and tested in Xilinx Vivado. It combines a PS/2 rece
 
 > This repository contains my original RTL, top-level integration, constraints, testbench work, and implementation evidence. Two course-provided support files, `DAC.v` and `ROM.v`, are intentionally excluded and are required only for the audio-feedback extension.
 
-![Basys-3 hardware demonstration](assets/basys3-hardware-demo.jpg)
+![Basys-3 hardware demonstration](assets/basys3-hardware-demo.jpeg)
 
 ## Features
 
@@ -30,7 +30,7 @@ The design integrates the following main functions:
 * Four-digit seven-segment display decoding
 * PCM sequence and audio-feedback integration
 
-![Vivado RTL schematic](assets/vivado-rtl-schematic.png)
+![Vivado RTL schematic](assets/vivado-rtl-schematic.PNG)
 
 ## Repository structure
 
@@ -59,7 +59,7 @@ fpga-ps2-keyboard-host-controller/
 
 The original simulation testbench exercises PS/2 clock and data activity and verifies scan-code reception through the integrated design.
 
-![PS/2 simulation waveform](assets/ps2-keyboard-simulation-waveform.png)
+![PS/2 simulation waveform](assets/ps2-keyboard-simulation-waveform.PNG)
 
 The waveform demonstrates PS/2 serial activity and captured keyboard scan-code data within the simulation environment.
 
@@ -67,7 +67,7 @@ The waveform demonstrates PS/2 serial activity and captured keyboard scan-code d
 
 The completed design was implemented on a Digilent Basys-3 FPGA board. The board photograph shows the PS/2 keyboard connection and active four-digit seven-segment display output.
 
-![Basys-3 implementation](assets/basys3-hardware-demo.jpg)
+![Basys-3 implementation](assets/basys3-hardware-demo.jpeg)
 
 ## Implementation results
 
