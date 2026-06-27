@@ -44,7 +44,7 @@ fpga-ps2-keyboard-host-controller/
 │   ├── PCM.v
 │   └── SEQ.v
 ├── tb/
-│   └── Original PS/2 keyboard testbench
+│   └── testbench.v
 ├── constraints/
 │   └── keyboard.xdc
 ├── assets/
